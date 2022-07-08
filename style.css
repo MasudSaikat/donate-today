@@ -29,3 +29,59 @@ a {
     text-decoration: none;
     font-size: 25px;
 }
+
+.donate-today {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.donate-font {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+
+#font-color {
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    margin-left: 370px;
+}
+
+.box {
+    width: 100px;
+    height: 60px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+
+#orange {
+    color: orangered;
+    border: 3px solid orangered;
+    background-color: rgb(253, 216, 210);
+}
+
+#enter-amount {
+    color: gainsboro;
+    font-size: larger;
+    font-weight: 400;
+}
+
+hr {
+    width: 600px;
+}
+
+.remove-border {
+    color: darkgray;
+    font-size: larger;
+    font-family: sans-serif;
+    border: none;
+    text-align: center;
+    outline: none;
+
+}
