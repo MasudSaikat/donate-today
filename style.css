@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.banner-image {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    height: 580px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-size: relative;
+    background-repeat: no-repeat;
+}
+
+.banner-heading {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    font-size: xx-large;
+}
+
+a {
+    padding: 12px;
+    background-color: tomato;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
