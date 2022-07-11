@@ -21,7 +21,7 @@ body {
     font-size: xx-large;
 }
 
-a {
+.click-button {
     padding: 12px;
     background-color: tomato;
     border-radius: 5px;
@@ -72,7 +72,7 @@ a {
     font-weight: 400;
 }
 
-hr {
+#hr1 {
     width: 600px;
 }
 
@@ -161,4 +161,112 @@ hr {
 .p-color {
     color: grey;
     font-size: 20px;
+}
+
+.about-us {
+    margin-top: 100px;
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+}
+
+.about-us-heading {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.about-us-para {
+    color: grey;
+    font-size: 20px;
+}
+
+.about-hr {
+    width: 50px;
+
+}
+
+.about-div {
+    margin-bottom: 50px;
+    background-color: #d9eeef;
+    padding: 40px 60px 50px 40px;
+}
+
+.about-div1 {
+    margin-bottom: 50px;
+    background-color: #efd9d9;
+    padding: 40px 60px 40px 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.updates {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.updates-h {
+    font-family: popins;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+.updates-p {
+    margin-left: 320px;
+    margin-right: 320px;
+    color: grey;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: popins;
+}
+
+#email-align {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    text-align: center;
+    width: 40%;
+    background-color: #D9EEEF;
+    padding: 80px;
+    margin-bottom: 100px;
+}
+
+#email-style {
+    background-color: #f3f7f8;
+    font-size: 16px;
+    padding: 10px;
+    color: grey;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.style-2 {
+    background-color: rgb(223, 43, 43);
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 0;
+}
+
+.footer {
+    background-color: #0B0D17;
+    color: #FE5A5A;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: 'Lobster', cursive;
+    font-family: cursive;
+
+}
+
+footer p {
+    color: white;
 }
